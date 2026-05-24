@@ -18,3 +18,15 @@ console.log(valueInNumber);
 // "123" => 123
 // "123abc" => NaN
 // "123abc" => NaN
+
+
+let isLoggedIn = ""
+
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(booleanIsLoggedIn);
+
+// 1 => true
+// 0 => false
+// "Yash" => true
+// "" => false
+// " " => true
