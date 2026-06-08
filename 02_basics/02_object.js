@@ -45,9 +45,34 @@ const user =[
 
 user[1].email
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+
+
+
+const course = {
+    courseName : "Hindi js",
+    price : 999,
+    courseInstrcutor : "AYUSH",
+
+}
+
+
+// course.courseInstrcutor 
+
+// const {courseInstrcutor} = course
+// const {courseInstrcutor : Instrcutor} = course
+// console.log(courseInstrcutor);
+// console.log(Instrcutor);
+
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar (company = "AYUHS")
+
 
