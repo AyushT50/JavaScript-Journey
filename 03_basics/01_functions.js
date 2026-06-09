@@ -7,7 +7,8 @@ function myName (){
     console.log("!");
     
 }
-// myName()
+// myName() // it is called "execution" or "Function call"
+//myName // it is called "Function reference"
 
 // function addTwoNumbers (num1,num2){ // this are called parameters 
 //    console.log(num1 + num2);
@@ -37,4 +38,38 @@ function loginUserMsg (userName = "sam"){
 }
 
 // console.log(loginUserMsg("AYUSH"))
+
+function calculateCartPrice(val1,val2, ...num1 ){ // '"..."" is rest operator 
+    return num1
+}
+
+// console.log(calculateCartPrice(300,200,100));
+
+const user = {
+    user : "AYUSH",
+    price : "9999"
+}
+
+function handleObject(anyObj){
+    console.log(`username is ${anyObj.user} and price is ${anyObj.price}`);
+
+}
+
+// handleObject(user)
+handleObject({
+    user:"Ayush",
+    price: 99
+})
+
+
+const myNewArr = [200,300,400]
+
+function returnSecVal (getArr){
+    return getArr[1]
+}
+
+// console.log(returnSecVal(myNewArr));
+console.log(returnSecVal([100,200,1000]));
+
+
 
